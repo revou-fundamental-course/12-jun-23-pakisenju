@@ -1,0 +1,63 @@
+<!-- tag di bawah ini digunakan untuk mendeklarasikan bahwa file ini adalah sebuah file HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tag di bawah ini digunakan untuk menghubungkan file HTML ini dengan file CSS yang dimiliki  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Konverter Suhu</title>
+</head>
+
+<body>
+    <!-- ini adalah judul dari website -->
+    <header class="judul">
+        <h1 class="animate__animated animate__backInLeft">Konverter Suhu</h1>
+    </header>
+
+    <!-- ini adalah isi dari website -->
+    <main class="konverter">
+        <!-- ini paragraf penjelas agar pengguna dapat menjalankan fungsi website dengan baik-->
+        <p class="animate__animated animate__backInLeft">Silahkan isi kotak di bawah dengan nilai suhu derajat, lalu klik tombol konversi untuk mendapatkan hasil
+            konversi</p>
+
+        <!-- div ini digunakan untuk mengelompokkan element yang akan digunakan pengguna untuk mengisikan sebuah nilai dengan sebuah satuan suhu dan menjalankannya -->
+        <div class="input animate__animated animate__backInLeft">
+            <div id="input-1">
+                <label for="">Celsius (°C):</label>
+                <input id="celsius" type="number" name="angka" value="">
+            </div>
+
+            <div id="buttonAction">
+                <button id="convert">Convert</button>
+                <button id="reset">Reset</button>
+            </div>
+
+            <!-- div ini digunakan untuk menampilkan hasil konversi nilai dari pengguna ke satuan suhu yang lainnya -->
+            <div id="input-2">
+                <label for="">Fahrenheit (°F):</label>
+                <input id="fahrenheit" type="number" value="">
+            </div>
+
+            <!-- div ini digunakan untuk menampilakn langkah-langkah pengolahan data yang dihasilkan dari hasil pengisian pengguna pada nilai awal sampai ke nilai akhirnya -->
+            <div id="hasilPerhitungan">
+                <label for="">Calculation</label>
+                <textarea name="text" id="hasil" cols="21" rows="10" disabled></textarea>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="animate__animated animate__backInLeft">made with 💘 copyright <a href="https://www.instagram.com/fahkirohandi/">Fahki Rohandi 2023</a></p>
+    </footer>
+
+    <!-- tag di bawah ini digunakan untuk menghubungkan file HTML ini dengan file JavaSvript yang dimiliki -->
+    <script src="script.js"></script>
+</body>
+
+</html>

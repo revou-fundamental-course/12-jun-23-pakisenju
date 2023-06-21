@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+}
+
+.judul {
+    max-width: 100%; 
+    height: 10vh;
+    background-color: teal;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+.konverter {
+    max-width: 100%;
+    height: 77.3vh;
+    background-color: burlywood;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center ;
+    align-items: center;
+}
+
+.konverter p {
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-self: center;
+}
+
+.konverter .input {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.konverter #input-1 {
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.konverter #input-1 input {
+    max-width: 100%;
+    height: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.konverter #buttonAction {
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.konverter #buttonAction button {
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.konverter #input-2 {
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.konverter #input-2 input {
+    max-width: 100%;
+    height: 20px;
+}
+
+.konverter #hasilPerhitungan {
+    max-width: 100%;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.konverter #hasilPerhitungan textarea {
+    max-width: 100%;
+    height: 170px;
+    resize: none;
+}
+
+.footer {
+    max-width: 100%; 
+    height: 10vh;
+    background-color: teal;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: burlywood;
+}
